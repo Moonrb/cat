@@ -13,13 +13,22 @@ const store = new Vuex.Store({
       state.movieList = data
     }
   },
+
+  // 请求的热播列表ajax
   actions: {
+    // 请求的热播列表ajax
     movieOnInfoList (state) {
       axios.get('/ajax/movieOnInfoList?token=').then(res => {
         state.commit('movieOnInfoListMuta', res.data.movieList)
       })
+    },
+    mostExpected (state) {
+      axios.get('/ajax/movieOnInfoList?token=').then(res => {
+        state.commit('mostExpectedMuta', res.data.movieList)
+      })
     }
 
   }
+
 })
 export default store

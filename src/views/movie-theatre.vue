@@ -1,5 +1,5 @@
 <template>
-  <h1>move-theatre</h1>
+  <h1>电影院</h1>
 </template>
 
 <script>
