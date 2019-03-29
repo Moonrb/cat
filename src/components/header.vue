@@ -14,7 +14,7 @@ export default {
 </script>
 <style lang="scss" scoped>
   div{
-    width: 100%;
+    width: 100vw;
     background: rgb(239,66,56);
     position: fixed;
     top: 0px;

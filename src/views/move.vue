@@ -2,6 +2,7 @@
   <div>
     <moveheader></moveheader>
     <movenav></movenav>
+    <router-view></router-view>
     <movefooter></movefooter>
   </div>
 </template>

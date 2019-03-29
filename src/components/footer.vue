@@ -13,6 +13,7 @@ export default {
 </script>
 <style lang="scss" scoped>
   ul{
+    background: white;
     position: fixed;
     bottom: 0;
     display: flex;
