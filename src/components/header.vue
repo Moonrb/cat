@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{title}}</h1>
+    <h3>{{title}}</h3>
   </div>
 </template>
 <script>
@@ -14,19 +14,18 @@ export default {
 </script>
 <style lang="scss" scoped>
   div{
-    width: 100vw;
-    background: rgb(239,66,56);
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background:#e54847;
     position: fixed;
-    top: 0px;
-    height: 16vw;
-    line-height: 16vw;
-    z-index: 100;
-    h1{
-      height: 100%;
-      font-size: 5vw;
-      text-align: center;
-      color: white;
-      color: white;
-    }
+    top: 0;
+    z-index: 999;
+      h3{
+        color: #fff;
+        font-size: 20px;
+        font-weight: 100;
+      }
   }
 </style>

@@ -14,31 +14,30 @@ export default {
 </script>
 <style lang="scss" scoped>
   ul{
-
     position:fixed;
-    top: 16vw;
-    height: 12vw;
+    top: 60px;
+    height: 50px;
     width: 100%;
     display: flex;
-    line-height: 12vw;
+    line-height: 50px;
     text-align: center;
     border-bottom: 1px solid #ccc;
     background: white;
-    z-index: 100;
+    z-index: 999;
     li{
       flex: 1;
       height: 100%;
-      font-size:5vw;
+      font-size:16px;
     }
     li:nth-of-type(2),li:nth-of-type(3){
       font-weight:600;
     }
     li:nth-of-type(4){
-      color: rgb(229,70,70);
+      color: #e54847;
     }
     .movered{
-      color: rgb(229,70,70);
-      border-bottom: 2px solid rgb(229,70,70);
+      color: #e54847;
+      border-bottom: 2px solid #e54847;
     }
   }
 </style>
