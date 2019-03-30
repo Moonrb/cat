@@ -19,6 +19,7 @@ export default {
     display: flex;
     height: 15vw;
     width: 100%;
+    z-index: 100;
 line-height: 15vw;
     li{
       flex: 1;

@@ -20,6 +20,7 @@ export default {
     top: 0px;
     height: 16vw;
     line-height: 16vw;
+    z-index: 100;
     h1{
       height: 100%;
       font-size: 5vw;

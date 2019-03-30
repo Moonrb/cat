@@ -1,14 +1,22 @@
 <template>
-  <h1>马上播放</h1>
+  <div>
+    <croswise></croswise>
+    <vertical></vertical>
+  </div>
 </template>
 
 <script>
+import vertical from './upcoming/vertical'
+import croswise from './upcoming/crosswise'
 export default {
-
+  components: {
+    vertical,
+    croswise
+  },
+  methods: {}
 }
+
 </script>
 <style lang="scss" scoped>
-  h1{
-    color: fuchsia;
-  }
+
 </style>

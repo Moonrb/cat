@@ -25,7 +25,7 @@ const store = new Vuex.Store({
       state.mostswip = data
     },
     cominListMuta (state, data) {
-      state.cominlist = data
+      state.cominlist = state.cominlist.concat(data)
     }
   },
 
@@ -46,7 +46,7 @@ const store = new Vuex.Store({
     },
     cominList (store) {
       axios.get(`/ajax/comingList?ci=65&token=&limit=10`).then(res => {
-        store.commit('cominListMuta', res.data)
+        store.commit('cominListMuta', res.data.coming)
       })
     }
 

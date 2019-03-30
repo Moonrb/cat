@@ -14,7 +14,8 @@ export default {
 </script>
 <style lang="scss" scoped>
   ul{
-    position: relative;
+
+    position:fixed;
     top: 16vw;
     height: 12vw;
     width: 100%;
@@ -22,6 +23,8 @@ export default {
     line-height: 12vw;
     text-align: center;
     border-bottom: 1px solid #ccc;
+    background: white;
+    z-index: 100;
     li{
       flex: 1;
       height: 100%;
