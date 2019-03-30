@@ -67,6 +67,7 @@ export default {
             padding-top: 10px;
           }
           p{
+            width: 200px;
             line-height: 25px;
             text-overflow: ellipsis;
             white-space: nowrap;
