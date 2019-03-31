@@ -1,6 +1,6 @@
 <template>
   <ul>
-    <router-link to="/city" tag="li">大连</router-link>
+    <li @click="tiao">大连</li>
     <router-link to="/move/hoting" tag="li" activeClass="movered">正在热映</router-link>
     <router-link to="/move/upcoming" tag="li" activeClass="movered">即将上映</router-link>
     <router-link to="/seek" tag="li">搜索</router-link>
@@ -9,7 +9,11 @@
 
 <script>
 export default {
-
+  methods: {
+    tiao () {
+      window.location.href = 'http://m.maoyan.com/#city-list'
+    }
+  }
 }
 </script>
 <style lang="scss" scoped>

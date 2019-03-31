@@ -4,7 +4,10 @@
 
 <script>
 export default {
-
+  mounted () {
+    // this.$store.commit('movedetailsId', this.$router.params.myid)
+    this.$store.dispatch('movedetails')
+  }
 }
 </script>
 <style lang="scss" scoped>

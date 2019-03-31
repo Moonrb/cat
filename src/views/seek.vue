@@ -35,7 +35,7 @@ export default {
     line-height: 10vw;
     text-align: center;
     color: white;
-    z-index: 103;
+    z-index: 210;
     position: fixed;
     top: 3vw;
     left:3vw;

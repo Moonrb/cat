@@ -14,8 +14,8 @@ import { Search } from 'mint-ui'
 Vue.component(Search.name, Search)
 export default {
   data () {
-    return{
-      value:'搜电影 、搜影院'
+    return {
+      value: '搜电影 、搜影院'
     }
   }
 }

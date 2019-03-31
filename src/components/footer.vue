@@ -6,10 +6,10 @@
     <span>电影</span>
     </router-link>
 
-    <router-link to="/moveth" tag="li" active-class="act">
+    <li @click="tiao">
     <i class="iconfont icon-yingyuana"></i>
     <span>影院</span>
-    </router-link>
+    </li>
 
     <router-link to="/myself" tag="li" active-class="act">
     <i class="iconfont icon-wode"></i>
@@ -22,7 +22,11 @@
 <script>
 
 export default {
-
+  methods: {
+    tiao () {
+      window.location.href = 'http://m.maoyan.com/#cinema'
+    }
+  }
 }
 </script>
 <style lang="scss" scoped>
@@ -41,7 +45,6 @@ footer{
                 font-size: 14px;
                 text-align: center;
                 line-height: 60px;
-                color: #e54847;
                 span{
                   height: 30px;
                   line-height: 30px;
@@ -52,6 +55,9 @@ footer{
                     height: 25px;
                     margin-top: -10px;}
             }
+          .act{
+            color: #e54847;
+          }
         }
     }
 </style>
